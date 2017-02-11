@@ -14,12 +14,64 @@
   color: white;
 }
 
-.App-intro {
+.App-header-intro {
+  margin-top: -10px;
+}
+
+.App-form {
+  font-size: large;
+  text-align: left;
+  width: 350px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 4px 8px;
   font-size: large;
 }
 
-.App a {
-  color: #f60;
+.Button-block {
+  font-size: large;
+  padding-left: 80px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 90%
+}
+
+.App-table th {
+  font-size: large;
+  background-color: #494949;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.Part-col {
+  width: 50%;
+}
+
+.Cost-col {
+  width: 20%;
+}
+
+.Savings-col {
+  width: 20%;
+}
+
+.App-table td {
+  border: 1px solid #ddd;
+}
+
+.App-table tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.App-table tr:hover {
+  background-color: #ddd;
 }
 
 @keyframes App-logo-spin {
